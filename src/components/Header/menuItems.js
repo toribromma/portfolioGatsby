@@ -19,11 +19,11 @@ export const menuItems = [
     items: [
       {
         name: "",
-        label: "main page"
+        label: "home"
       },
       {
         name: "photography-1",
-        label: "photography-1"
+        label: "photography"
       },
 
       // {
