@@ -460,7 +460,7 @@ const Header = ({ isDark }) => {
                       contact.
                     </a>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <a
                       className="nav-link"
                       href="https://uxtheme.net/theme-support"
@@ -468,7 +468,7 @@ const Header = ({ isDark }) => {
                     >
                       support
                     </a>
-                  </li>
+                  </li> */}
                 </Menu>
               </div>
             </div>

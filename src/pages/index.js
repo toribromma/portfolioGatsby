@@ -3,7 +3,7 @@ import { Element } from "react-scroll";
 
 import PageWrapper from "../components/PageWrapper";
 import Hero from "../sections/landing2/Hero";
-import Works from "../sections/landing1/Works";
+import Works from "../sections/landing4/Works";
 import Contact from "../sections/landing1/Contact";
 
 const IndexPage = () => {

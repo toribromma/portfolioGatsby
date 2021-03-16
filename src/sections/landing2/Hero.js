@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 import { Title, Section, Box } from "../../components/Core";
 
 import bgHeroPattern from "../../assets/image/webp/hero-pattern.webp";
-import imgL from "../../assets/image/jpg/portfolio-about-2.jpg";
+import imgL from "../../assets/image/jpg/photos/portfolio.jpg";
 
 const SectionStyled = styled(Section)`
   &::before {
@@ -53,10 +53,10 @@ const Hero = () => {
                 letter-spacing: 1.63px;
               `}
             >
-              HI, I AM BRUCE RYAN
+              HI, I AM TORI BROMMA
             </Title>
             <Title>
-              Full Stack UX Designer <br /> who loves nature!
+              Full Stack Web Developer and Photographer <br /> who loves nature!
             </Title>
           </Box>
         </Container>
