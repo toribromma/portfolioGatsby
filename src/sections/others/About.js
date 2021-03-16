@@ -33,7 +33,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
             <Col lg="6">
               <div className="pl-lg-4 pt-5 pt-lg-0">
                 <Title color="light" variant="secSm">
-                  Bruce Ryan
+                  Tori Bromma
                 </Title>
                 <Text
                   color="light"
@@ -42,11 +42,11 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 1.5;
                   `}
                 >
-                  UX Designer based in New York, USA. I am designing with a
-                  minimal and beautiful design in mind.
+                  Full Stack Web Developer based in Los Angeles, CA. 
+                  I am building responsive and creative web apps.
                 </Text>
                 <Text color="light" className="mt-4">
-                  I strive for a minimal and beautiful design.
+                  I strive for a sleek and efficient architecture and design.
                 </Text>
                 <div className="mt-4">
                   <Text color="light">Email me at</Text>
@@ -56,7 +56,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                       href="mailto:hello@folio.com"
                       className="font-weight-bold"
                     >
-                      <Span color="light">hello@folio.com</Span>
+                      <Span color="light">toribromma@gmail.com</Span>
                     </a>
                   </Text>
                 </div>
@@ -64,35 +64,35 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                   <img src={imgSignLight} alt="sign" className="img-fluid" />
                 </div>
                 <Text color="light" className="mt-3 font-weight-bold">
-                  Bruce Ryan
+                  Tori Bromma
                 </Text>
                 <Text color="light" variant="small">
-                  Founder of Folio Digital
+                  Freelance Web Developer
                 </Text>
                 <div className="mt-5 d-flex">
-                  <LinkSocial
+                  {/* <LinkSocial
                     href="https://www.dribbble.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mr-3"
                   >
                     Dribble
-                  </LinkSocial>
-                  <LinkSocial
+                  </LinkSocial> */}
+                  {/* <LinkSocial
                     href="https://www.twitter.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className=" mr-3"
                   >
                     Twitter
-                  </LinkSocial>
+                  </LinkSocial> */}
                   <LinkSocial
-                    href="https://www.facebook.com"
+                    href="https://www.linkedin.com/in/toribromma"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mr-3"
                   >
-                    Facebook
+                    LinkedIn
                   </LinkSocial>
                   <LinkSocial
                     href="https://www.instagram.com"
