@@ -22,7 +22,7 @@ import GlobalContext from "../../context/GlobalContext";
 
 import GlobalStyle from "../../utils/globalStyle";
 
-import imgFavicon from "../../assets/favicon.png";
+import imgFavicon from "../../assets/favicon.ico";
 
 import "../../assets/fonts/icon-font/fonts/avasta.ttf";
 import "../../assets/fonts/icon-font/fonts/Grayic.ttf";
