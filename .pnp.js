@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@n8tb1t/use-scroll-position", "virtual:b7d3914e641ea4dee58750b2b93bc8066ed81b9a14fa0cacae3ccce14fcdde10bff095dfbed7bab4537900f0873856b2ae21875c581f663f4adecfbc4992cc14#npm:1.0.47"],
-            ["aos", "npm:3.0.0-beta.6"],
+            ["aos", "npm:2.3.4"],
             ["babel-plugin-styled-components", "virtual:b7d3914e641ea4dee58750b2b93bc8066ed81b9a14fa0cacae3ccce14fcdde10bff095dfbed7bab4537900f0873856b2ae21875c581f663f4adecfbc4992cc14#npm:1.11.1"],
             ["bootstrap", "virtual:b7d3914e641ea4dee58750b2b93bc8066ed81b9a14fa0cacae3ccce14fcdde10bff095dfbed7bab4537900f0873856b2ae21875c581f663f4adecfbc4992cc14#npm:4.5.3"],
             ["dotenv", "npm:8.2.0"],
@@ -5380,10 +5380,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["aos", [
-        ["npm:3.0.0-beta.6", {
-          "packageLocation": "./.yarn/cache/aos-npm-3.0.0-beta.6-236f89f979-56ce31b391.zip/node_modules/aos/",
+        ["npm:2.3.4", {
+          "packageLocation": "./.yarn/cache/aos-npm-2.3.4-40ac384fbe-f32d309c30.zip/node_modules/aos/",
           "packageDependencies": [
-            ["aos", "npm:3.0.0-beta.6"],
+            ["aos", "npm:2.3.4"],
             ["classlist-polyfill", "npm:1.2.0"],
             ["lodash.debounce", "npm:4.0.8"],
             ["lodash.throttle", "npm:4.1.1"]
@@ -11016,7 +11016,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["folio-gatsby", "workspace:."],
             ["@n8tb1t/use-scroll-position", "virtual:b7d3914e641ea4dee58750b2b93bc8066ed81b9a14fa0cacae3ccce14fcdde10bff095dfbed7bab4537900f0873856b2ae21875c581f663f4adecfbc4992cc14#npm:1.0.47"],
-            ["aos", "npm:3.0.0-beta.6"],
+            ["aos", "npm:2.3.4"],
             ["babel-plugin-styled-components", "virtual:b7d3914e641ea4dee58750b2b93bc8066ed81b9a14fa0cacae3ccce14fcdde10bff095dfbed7bab4537900f0873856b2ae21875c581f663f4adecfbc4992cc14#npm:1.11.1"],
             ["bootstrap", "virtual:b7d3914e641ea4dee58750b2b93bc8066ed81b9a14fa0cacae3ccce14fcdde10bff095dfbed7bab4537900f0873856b2ae21875c581f663f4adecfbc4992cc14#npm:4.5.3"],
             ["dotenv", "npm:8.2.0"],

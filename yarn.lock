@@ -3426,14 +3426,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aos@npm:^3.0.0-beta.6":
-  version: 3.0.0-beta.6
-  resolution: "aos@npm:3.0.0-beta.6"
+"aos@npm:^2.3.4":
+  version: 2.3.4
+  resolution: "aos@npm:2.3.4"
   dependencies:
-    classlist-polyfill: ^1.2.0
-    lodash.debounce: ^4.0.8
-    lodash.throttle: ^4.1.1
-  checksum: 56ce31b391dfeaf6ed2b50fca0ca30632e10aca187c011ebc09e88299e18b7029b21850498074b4903c95f5d6d9297298e0090e0beee364d61ba73ef9cc89035
+    classlist-polyfill: ^1.0.3
+    lodash.debounce: ^4.0.6
+    lodash.throttle: ^4.0.1
+  checksum: f32d309c30e6404b370cdef6542560f16df394a11e6d4d101c75f54db5c858d3c5d5e30156eab6cace8cbfb85fcd723b4114af4581670720aee7809312890c92
   languageName: node
   linkType: hard
 
@@ -5065,7 +5065,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"classlist-polyfill@npm:^1.2.0":
+"classlist-polyfill@npm:^1.0.3":
   version: 1.2.0
   resolution: "classlist-polyfill@npm:1.2.0"
   checksum: 17b18e3ef8a3f57423afb132cec8032e3751c5e2bca8ce5783d4167c967ad48f693910dd74abb0f4716ce2099eba79cfa593d2eb76ceea6f8413c53101a8177a
@@ -8241,7 +8241,7 @@ __metadata:
   resolution: "folio-gatsby@workspace:."
   dependencies:
     "@n8tb1t/use-scroll-position": ^1.0.43
-    aos: ^3.0.0-beta.6
+    aos: ^2.3.4
     babel-plugin-styled-components: ^1.10.6
     bootstrap: ^4.3.1
     dotenv: ^8.1.0
@@ -11794,7 +11794,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"lodash.debounce@npm:^4.0.8":
+"lodash.debounce@npm:^4.0.6, lodash.debounce@npm:^4.0.8":
   version: 4.0.8
   resolution: "lodash.debounce@npm:4.0.8"
   checksum: b6042bd8c09ff1961c9127d32266316bc21f946ece5e3464a663ec61fadb98e7d56ec0ef7e23b47d393695310c19cf24e651c1756be6da91ac02c72be7f79465
@@ -11864,7 +11864,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"lodash.throttle@npm:^4.1.1":
+"lodash.throttle@npm:^4.0.1, lodash.throttle@npm:^4.1.1":
   version: 4.1.1
   resolution: "lodash.throttle@npm:4.1.1"
   checksum: d9107c79033f609f23552f48f5ba93b8a98a07a2b38914745a48d33f18704a4c6a125610ad2bab2a0139974d1da7c5d6a24271243e21571f01e21bf3b2f6b21d
