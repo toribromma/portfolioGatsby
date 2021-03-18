@@ -53,7 +53,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
 
                   <Text variant="p">
                     <a
-                      href="mailto:hello@folio.com"
+                      href="mailto:toribromma@gmail.com"
                       className="font-weight-bold"
                     >
                       <Span color="light">toribromma@gmail.com</Span>
