@@ -1,5 +1,5 @@
 import imgT1 from "../assets/image/jpg/apps/recipe.jpg";
-import imgT2 from "../assets/image/jpg/dev/regular/portfolio-2.jpg";
+import imgT2 from "../assets/image/jpg/apps/airbnb.jpg";
 import imgT3 from "../assets/image/jpg/dev/regular/portfolio-3.jpg";
 import imgT4 from "../assets/image/jpg/dev/regular/portfolio-4.jpg";
 import imgT5 from "../assets/image/jpg/dev/regular/portfolio-5.jpg";
@@ -12,18 +12,18 @@ export const devWorks2 = [
     brand: `Recipe Saver App`,
     slug: `recipe-saver-app`,
     title: `Save your Recipes in a concise and mobile friendly way`,
-    categories: [`web`],
+    categories: [`web`, 'app'],
     thumbnail: imgT1,
     link : "/portfolio-details"
 },
-//   {
-//     brand: `Travel App`,
-//     slug: `travel-app`,
-//     title: `Adaptable but Identifiable Product for Kandinsky.`,
-//     categories: [`app`, `web`],
-//     thumbnail: imgT2,
-//   link : "/portfolio-details"
-// },
+  {
+    brand: `BNB rental finder`,
+    slug: `property-finder`,
+    title: `Find a rental for your holiday.`,
+    categories: [`app`, `web`],
+    thumbnail: imgT2,
+  link : "/portfolio-details-2"
+},
 //   {
 //     brand: `Shopper`,
 //     slug: `shopper`,
