@@ -23,7 +23,7 @@ const IndexPage = () => {
                 <Col lg="3" md="4" sm="6" key={index} className="filtr-item">
                   <RotateImg
                     mb="30px"
-                    link="/portfolio-details"
+                    link={null}
                     imgSrc={item.thumbnail}
                   />
                 </Col>

@@ -17,8 +17,8 @@ import imgT16 from "../assets/image/jpg/photo/regular/portfolio-16.jpg";
 
 export const works1 = [
   {
-    brand: `Perfumed`,
-    slug: `perfumed`,
+    brand: `Photography`,
+    slug: `photography`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: ["web"],
     thumbnail: imgT1,
@@ -30,7 +30,7 @@ export const works1 = [
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`photography`, `branding`],
     thumbnail: imgT2,
-  link : "/portfolio-details"
+  // link : "/portfolio-details"
 },
   {
     brand: `Shopper`,
@@ -38,7 +38,7 @@ export const works1 = [
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`marketing`, `ux-design`, `branding`],
     thumbnail: imgT3,
-  link : "/portfolio-details"
+  // link : "/portfolio-details"
 },
   {
     brand: `Candy Store`,
@@ -46,7 +46,7 @@ export const works1 = [
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`branding`],
     thumbnail: imgT4,
-  link : "/portfolio-details"
+  // link : "/portfolio-details"
 },
   {
     brand: `Travel App`,
@@ -54,7 +54,7 @@ export const works1 = [
     title: `Adaptable but Identifiable Product for Kandinsky.`,
     categories: [`branding`, `photography`, `ux-design`],
     thumbnail: imgT5,
-  link : "/portfolio-details"
+  // link : "/portfolio-details"
 },
 //   {
 //     brand: `Ice Cream`,
