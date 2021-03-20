@@ -5,10 +5,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Section, Button, Title, Text, Box } from "../components/Core";
 import PageWrapper from "../components/PageWrapper";
 import CTA from "../sections/common/CTA";
-import imgWorkCover from "../assets/image/png/apps/airbnb1.png";
-import imgS1 from "../assets/image/png/apps/airbnb2.png";
-import imgS2 from "../assets/image/png/apps/airbnb3.png";
-import imgS3 from "../assets/image/png/apps/airbnb4.png";
+import imgWorkCover from "../assets/image/png/apps/weeklymealplanner.png";
+import imgS1 from "../assets/image/png/apps/weeklymealplanner2.png";
+import imgS2 from "../assets/image/png/apps/weeklymealplanner3.png";
+// import imgS3 from "../assets/image/png/apps/airbnb4.png";
 // import imgS4 from "../assets/image/jpg/details/details-9.jpg";
 // import imgS5 from "../assets/image/jpg/details/details-14.jpg";
 // import imgS6 from "../assets/image/jpg/details/details-13.jpg";
@@ -25,8 +25,8 @@ const WorkSingle = () => {
                 <Box>
                   <Text variant="tag">Web App</Text>
                   <Title className="my-4">
-                    Redux Store Air Bnb Prototype <br /> 
-                    Made to be easily manageable and concise.
+                    Google Calendar API Edamam API <br /> 
+                    Connect to Google Calendar with just 1 click.
                   </Title>
                   <Text
                     variant="p"
@@ -34,8 +34,9 @@ const WorkSingle = () => {
                       max-width: 750px;
                     `}
                   >
-                    The goal was to create a redux based web app that replicated some of
-                    Air Bnb's functions.
+                    The goal was to be able to search for recipes and be able to conveniently
+                    add it to our google calendar. 
+                    With the busy lives we live, we need something easy and quick.
                   </Text>
                 </Box>
               </Col>
@@ -53,7 +54,7 @@ const WorkSingle = () => {
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Client</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Air Bnb Bargain
+                  Weekly Meal Planner
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
@@ -63,7 +64,7 @@ const WorkSingle = () => {
                 </Title> */}
               </Col>
               <Col lg="4" className="d-flex justify-content-lg-end">
-                <Button arrowRight><a target="_blank" href="https://airbnbclone22.herokuapp.com/">Live work</a></Button>
+                <Button arrowRight><a target="_blank" href="https://hollyisaredhead.github.io/Weekly-meal-planner/">Live work</a></Button>
               </Col>
             </Row>
           </Container>
@@ -72,14 +73,14 @@ const WorkSingle = () => {
           <Container>
             <Row>
               <Col xs="12" className="mb-5">
-                <img src={imgS3} alt="" className="img-fluid w-100" />
+                <img src={imgS1} alt="" className="img-fluid w-100" />
               </Col>
               <Col xs="12" className="mb-5">
                 <img src={imgS2} alt="" className="img-fluid w-100" />
               </Col>
-              <Col lg="6" className="mb-5 mb-lg-0 pr-lg-4">
-                <img src={imgS1} alt="" className="img-fluid w-100" />
-              </Col>
+              {/* <Col lg="6" className="mb-5 mb-lg-0 pr-lg-4">
+                <img src={imgS3} alt="" className="img-fluid w-100" />
+              </Col> */}
               {/* <Col lg="6" className="mb-5 pl-lg-4">
                 <img src={imgS4} alt="" className="img-fluid w-100" />
               </Col> */}
@@ -102,7 +103,7 @@ const WorkSingle = () => {
               <Text variant="tag" className="mb-1" color="lightShade">
                 Next Project
               </Text>
-              <Link to="/portfolio-details-3">
+              <Link to="/portfolio-details">
                 <Button
                   arrowRight
                   className="border-0 bg-transparent shadow-none text-capitalize py-3"

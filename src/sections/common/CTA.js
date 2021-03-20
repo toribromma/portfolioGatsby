@@ -16,7 +16,7 @@ const CTA = () => {
             <Col lg="10" xl="7">
               <Availability />
               <div className="text-center my-5">
-                <Title>Do you have illustration project? Let's talk.</Title>
+                <Title>Do you have app ideas or projects? Let's talk.</Title>
               </div>
               <div className="text-center">
                 <ButtonIcon

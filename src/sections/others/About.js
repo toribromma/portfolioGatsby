@@ -78,14 +78,14 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                   >
                     Dribble
                   </LinkSocial> */}
-                  {/* <LinkSocial
-                    href="https://www.twitter.com"
+                  <LinkSocial
+                    href="https://www.github.com/toribromma"
                     target="_blank"
                     rel="noopener noreferrer"
                     className=" mr-3"
                   >
-                    Twitter
-                  </LinkSocial> */}
+                    Github
+                  </LinkSocial>
                   <LinkSocial
                     href="https://www.linkedin.com/in/toribromma"
                     target="_blank"

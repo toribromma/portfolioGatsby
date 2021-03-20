@@ -1,6 +1,6 @@
 import imgT1 from "../assets/image/jpg/apps/recipe.jpg";
 import imgT2 from "../assets/image/jpg/apps/airbnb.jpg";
-import imgT3 from "../assets/image/jpg/dev/regular/portfolio-3.jpg";
+import imgT3 from "../assets/image/jpg/apps/planner.jpg";
 import imgT4 from "../assets/image/jpg/dev/regular/portfolio-4.jpg";
 import imgT5 from "../assets/image/jpg/dev/regular/portfolio-5.jpg";
 import imgT6 from "../assets/image/jpg/dev/regular/portfolio-6.jpg";
@@ -17,21 +17,21 @@ export const devWorks2 = [
     link : "/portfolio-details"
 },
   {
-    brand: `BNB rental finder`,
+    brand: `Air Bnb Rental Finder`,
     slug: `property-finder`,
     title: `Find a rental for your holiday.`,
     categories: [`app`, `web`],
     thumbnail: imgT2,
   link : "/portfolio-details-2"
 },
-//   {
-//     brand: `Shopper`,
-//     slug: `shopper`,
-//     title: `Adaptable but Identifiable Product for Kandinsky.`,
-//     categories: [`web`, `ui-design`],
-//     thumbnail: imgT3,
-//   link : "/portfolio-details"
-// },
+  {
+    brand: `Weekly Meal Planner`,
+    slug: `shopper`,
+    title: `Find a Recipe and add it to your Google Calendar.`,
+    categories: [`web`, `ui-design`],
+    thumbnail: imgT3,
+  link : "/portfolio-details-3"
+},
 //   {
 //     brand: `Candy Store`,
 //     slug: `candy-store`,

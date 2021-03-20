@@ -58,9 +58,9 @@ const WorkSingle = () => {
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
-                <Text variant="tag">Time</Text>
+                <Text variant="tag">Title</Text>
                 <Title variant="cardBig" className="mt-3">
-                  N/A
+                  Cook it 
                 </Title>
               </Col>
               <Col lg="4">
@@ -161,7 +161,7 @@ const WorkSingle = () => {
               <Text variant="tag" className="mb-1" color="lightShade">
                 Next Project
               </Text>
-              <Link to="/portfolio-details">
+              <Link to="/portfolio-details-2">
                 <Button
                   arrowRight
                   className="border-0 bg-transparent shadow-none text-capitalize py-3"
@@ -175,7 +175,7 @@ const WorkSingle = () => {
                     }
                 `}
                 >
-                  Replace
+                  Air Bnb Bargain
                 </Button>
               </Link>
             </div>
